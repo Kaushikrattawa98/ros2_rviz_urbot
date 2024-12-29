@@ -1,0 +1,24 @@
+[0.179s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo -- -j16 -l16
+[0.452s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo -- -j16 -l16
+[0.478s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo
+[0.568s] -- Install configuration: ""
+[0.568s] -- Execute custom install script
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot.gazebo.launch.py
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/worlds/empty.world
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/worlds/pick_and_place_demo.world
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/ament_index/resource_index/parent_prefix_path/mycobot_gazebo
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.sh
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.dsv
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.sh
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.dsv
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.bash
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.sh
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.zsh
+[0.575s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.dsv
+[0.575s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/package.dsv
+[0.606s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/ament_index/resource_index/packages/mycobot_gazebo
+[0.607s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig.cmake
+[0.607s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig-version.cmake
+[0.629s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_gazebo/share/mycobot_gazebo/package.xml
+[1.141s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_gazebo

@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup
+[2.033s] -- The C compiler identification is GNU 13.3.0
+[3.890s] -- The CXX compiler identification is GNU 13.3.0
+[4.129s] -- Detecting C compiler ABI info
+[4.765s] -- Detecting C compiler ABI info - done
+[4.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.784s] -- Detecting C compile features
+[4.784s] -- Detecting C compile features - done
+[4.882s] -- Detecting CXX compiler ABI info
+[5.435s] -- Detecting CXX compiler ABI info - done
+[5.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.450s] -- Detecting CXX compile features
+[5.450s] -- Detecting CXX compile features - done
+[5.543s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.751s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.893s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.065s] -- Added test 'lint_cmake' to check CMake code style
+[6.067s] -- Added test 'xmllint' to check XML markup files
+[6.079s] -- Configuring done (6.0s)
+[6.079s] -- Generating done (0.0s)
+[6.094s] -- Build files have been written to: /home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup
+[6.107s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup
+[6.109s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup -- -j16 -l16
+[6.170s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup -- -j16 -l16
+[6.172s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup
+[6.181s] -- Install configuration: ""
+[6.181s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/ament_index/resource_index/package_run_dependencies/mycobot_bringup
+[6.181s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/ament_index/resource_index/parent_prefix_path/mycobot_bringup
+[6.181s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/environment/ament_prefix_path.sh
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/environment/ament_prefix_path.dsv
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/environment/path.sh
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/environment/path.dsv
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/local_setup.bash
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/local_setup.sh
+[6.182s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/local_setup.zsh
+[6.191s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/local_setup.dsv
+[6.191s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/package.dsv
+[6.191s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/ament_index/resource_index/packages/mycobot_bringup
+[6.191s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig.cmake
+[6.203s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig-version.cmake
+[6.203s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/mycobot_bringup/share/mycobot_bringup/package.xml
+[6.259s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_bringup

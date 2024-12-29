@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_bringup/scripts/mycobot_280_gazebo.sh

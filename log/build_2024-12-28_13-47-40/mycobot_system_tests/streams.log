@@ -1,0 +1,31 @@
+[0.079s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_system_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests
+[0.131s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.112s] -- Added test 'lint_cmake' to check CMake code style
+[1.112s] -- Added test 'xmllint' to check XML markup files
+[1.112s] -- Configuring done (1.0s)
+[1.112s] -- Generating done (0.0s)
+[1.115s] -- Build files have been written to: /home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests
+[1.128s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_system_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests
+[1.129s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests -- -j16 -l16
+[1.371s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests -- -j16 -l16
+[1.406s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests
+[1.450s] -- Install configuration: ""
+[1.450s] -- Execute custom install script
+[1.450s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/ament_index/resource_index/package_run_dependencies/mycobot_system_tests
+[1.493s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/ament_index/resource_index/parent_prefix_path/mycobot_system_tests
+[1.672s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.sh
+[1.678s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.dsv
+[1.681s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.sh
+[1.681s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.dsv
+[1.682s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.bash
+[1.731s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.sh
+[1.812s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.zsh
+[1.853s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.dsv
+[1.912s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/package.dsv
+[1.946s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/ament_index/resource_index/packages/mycobot_system_tests
+[2.000s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig.cmake
+[2.032s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig-version.cmake
+[2.082s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_system_tests/share/mycobot_system_tests/package.xml
+[2.140s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests

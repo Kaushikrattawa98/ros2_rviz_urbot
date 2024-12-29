@@ -1,0 +1,37 @@
+[0.093s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config
+[0.125s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.701s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.983s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.983s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.983s] -- Added test 'lint_cmake' to check CMake code style
+[0.983s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.983s] -- Added test 'xmllint' to check XML markup files
+[0.983s] -- Configuring done (0.8s)
+[1.044s] -- Generating done (0.0s)
+[1.075s] -- Build files have been written to: /home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config
+[1.130s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config
+[1.130s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config -- -j16 -l16
+[1.471s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config -- -j16 -l16
+[1.471s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config
+[1.515s] -- Install configuration: ""
+[1.515s] -- Execute custom install script
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers.yaml
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers_template.yaml
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/load_ros2_controllers.launch.py
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+[1.515s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+[1.516s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+[1.516s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml
+[1.569s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config

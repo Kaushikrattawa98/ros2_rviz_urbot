@@ -1,0 +1,66 @@
+[0.080s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_description
+[0.441s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.987s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.633s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.633s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.644s] -- Added test 'lint_cmake' to check CMake code style
+[2.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.666s] -- Added test 'xmllint' to check XML markup files
+[2.722s] -- Configuring done (2.6s)
+[2.876s] -- Generating done (0.1s)
+[2.920s] -- Build files have been written to: /home/ubuntu/ros2_rviz_urbot/build/mycobot_description
+[2.937s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/mycobot_description
+[2.937s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_description -- -j16 -l16
+[3.191s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/mycobot_description -- -j16 -l16
+[3.242s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_description
+[3.288s] -- Install configuration: ""
+[3.301s] -- Execute custom install script
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/launch/rviz_gz.launch.py
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae
+[3.301s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae
+[3.306s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae
+[3.306s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.png
+[3.306s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae
+[3.306s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.png
+[3.306s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae
+[3.308s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.png
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.png
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.png
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.png
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.png
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/suit_env.dae
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/control/mycobot_280_ros2_control.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/mech/adaptive_gripper.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/mech/g_shape_base_v2_0.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/mech/mycobot_280_arm.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/robots/mycobot_280.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/rviz/mycobot_280_description.rviz
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/environment/path.sh
+[3.312s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[3.319s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/local_setup.bash
+[3.319s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/local_setup.sh
+[3.319s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[3.319s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[3.319s] -- Symlinking: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/package.dsv
+[3.412s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[3.412s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[3.419s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[3.419s] -- Up-to-date symlink: /home/ubuntu/ros2_rviz_urbot/install/mycobot_description/share/mycobot_description/package.xml
+[3.431s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/mycobot_description

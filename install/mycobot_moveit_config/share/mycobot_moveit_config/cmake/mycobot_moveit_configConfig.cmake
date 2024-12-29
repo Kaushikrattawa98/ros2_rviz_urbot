@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_rviz_urbot/build/mycobot_moveit_config/ament_cmake_core/mycobot_moveit_configConfig.cmake

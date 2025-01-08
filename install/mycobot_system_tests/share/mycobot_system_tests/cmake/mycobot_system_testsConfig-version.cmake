@@ -1,1 +1,0 @@
-/home/ubuntu/ros2_rviz_urbot/build/mycobot_system_tests/ament_cmake_core/mycobot_system_testsConfig-version.cmake

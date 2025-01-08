@@ -1,0 +1,487 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7beca7167e30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7beca7167b30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7beca7167b30>>, mixin_verb=('build',))
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.086s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_rviz_urbot'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/custom_cobot_ros2) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/custom_cobot_ros2' with type 'ros.ament_cmake' and name 'custom_cobot_ros2'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/description_cobot) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/description_cobot' with type 'ros.ament_cmake' and name 'description_cobot'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/gazebo_custom_cobot) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/gazebo_custom_cobot' with type 'ros.ament_cmake' and name 'gazebo_custom_cobot'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/moveit_config_custom_cobot) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/moveit_config_custom_cobot' with type 'ros.ament_cmake' and name 'moveit_config_custom_cobot'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/startup_cobot) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/startup_cobot' with type 'ros.ament_cmake' and name 'startup_cobot'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_cobot_ros2/system_tests_custom_cobot) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_cobot_ros2/system_tests_custom_cobot' with type 'ros.ament_cmake' and name 'system_tests_custom_cobot'
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ubuntu/ros2_rviz_urbot/install
+[0.121s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/jazzy
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'description_cobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'description_cobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/description_cobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/description_cobot', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'gazebo_custom_cobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_custom_cobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/gazebo_custom_cobot', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'moveit_config_custom_cobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_config_custom_cobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'startup_cobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'startup_cobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/startup_cobot', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'system_tests_custom_cobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'system_tests_custom_cobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'custom_cobot_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'custom_cobot_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2', 'merge_install': False, 'path': '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/custom_cobot_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot'
+[0.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/gazebo_custom_cobot' with build type 'ament_cmake'
+[0.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/gazebo_custom_cobot'
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/startup_cobot' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/startup_cobot'
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot' with build type 'ament_cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/description_cobot
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/gazebo_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot
+[0.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/startup_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/startup_cobot
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot
+[3.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/description_cobot
+[3.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/description_cobot -- -j16 -l16
+[3.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot
+[3.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot -- -j16 -l16
+[3.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/description_cobot -- -j16 -l16
+[3.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/description_cobot
+[3.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot -- -j16 -l16
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot
+[3.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_config_custom_cobot)
+[3.557s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' for CMake module files
+[3.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' for CMake config files
+[3.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_config_custom_cobot', 'cmake_prefix_path')
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.ps1'
+[3.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.dsv'
+[3.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.sh'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/bin'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/lib/pkgconfig/moveit_config_custom_cobot.pc'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/lib/python3.12/site-packages'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/bin'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.ps1'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.dsv'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.sh'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.bash'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.zsh'
+[3.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/colcon-core/packages/moveit_config_custom_cobot)
+[3.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_config_custom_cobot)
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' for CMake module files
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot' for CMake config files
+[3.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_config_custom_cobot', 'cmake_prefix_path')
+[3.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.ps1'
+[3.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.dsv'
+[3.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/hook/cmake_prefix_path.sh'
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/bin'
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/lib/pkgconfig/moveit_config_custom_cobot.pc'
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/lib/python3.12/site-packages'
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/bin'
+[3.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.ps1'
+[3.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.dsv'
+[3.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.sh'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.bash'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.zsh'
+[3.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/colcon-core/packages/moveit_config_custom_cobot)
+[3.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot
+[3.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot -- -j16 -l16
+[3.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/startup_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/startup_cobot
+[3.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/startup_cobot -- -j16 -l16
+[3.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description_cobot)
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' for CMake module files
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' for CMake config files
+[3.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('description_cobot', 'cmake_prefix_path')
+[3.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.dsv'
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.sh'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/bin'
+[3.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/description_cobot
+[3.634s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/lib/pkgconfig/description_cobot.pc'
+[3.659s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/lib/python3.12/site-packages'
+[3.659s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/bin'
+[3.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.ps1'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.dsv'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.bash'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.zsh'
+[3.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/colcon-core/packages/description_cobot)
+[3.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description_cobot)
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' for CMake module files
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot' for CMake config files
+[3.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('description_cobot', 'cmake_prefix_path')
+[3.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.ps1'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.dsv'
+[3.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/hook/cmake_prefix_path.sh'
+[3.692s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/bin'
+[3.692s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/lib/pkgconfig/description_cobot.pc'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/lib/python3.12/site-packages'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/bin'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.ps1'
+[3.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.dsv'
+[3.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.sh'
+[3.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.bash'
+[3.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.zsh'
+[3.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/colcon-core/packages/description_cobot)
+[3.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot -- -j16 -l16
+[3.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/startup_cobot -- -j16 -l16
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/startup_cobot
+[3.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(system_tests_custom_cobot)
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' for CMake module files
+[3.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot
+[3.876s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' for CMake config files
+[3.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_tests_custom_cobot', 'cmake_prefix_path')
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.ps1'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.dsv'
+[3.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.sh'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/bin'
+[3.878s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/lib/pkgconfig/system_tests_custom_cobot.pc'
+[3.879s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/lib/python3.12/site-packages'
+[3.879s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/bin'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.sh'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.bash'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.zsh'
+[3.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/colcon-core/packages/system_tests_custom_cobot)
+[3.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(system_tests_custom_cobot)
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' for CMake module files
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot' for CMake config files
+[3.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_tests_custom_cobot', 'cmake_prefix_path')
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.ps1'
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.dsv'
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/hook/cmake_prefix_path.sh'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/bin'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/lib/pkgconfig/system_tests_custom_cobot.pc'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/lib/python3.12/site-packages'
+[3.929s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/bin'
+[3.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.ps1'
+[3.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.sh'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.bash'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/system_tests_custom_cobot/package.zsh'
+[3.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot/share/colcon-core/packages/system_tests_custom_cobot)
+[3.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(startup_cobot)
+[3.934s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' for CMake module files
+[3.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/startup_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/startup_cobot
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' for CMake config files
+[3.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('startup_cobot', 'cmake_prefix_path')
+[3.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.ps1'
+[3.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.dsv'
+[3.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.sh'
+[3.942s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/bin'
+[3.942s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/lib/pkgconfig/startup_cobot.pc'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/lib/python3.12/site-packages'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/bin'
+[3.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.ps1'
+[3.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.dsv'
+[3.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.sh'
+[3.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.bash'
+[3.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.zsh'
+[3.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/colcon-core/packages/startup_cobot)
+[3.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(startup_cobot)
+[3.945s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' for CMake module files
+[3.945s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot' for CMake config files
+[3.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('startup_cobot', 'cmake_prefix_path')
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.ps1'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.dsv'
+[3.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/hook/cmake_prefix_path.sh'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/bin'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/lib/pkgconfig/startup_cobot.pc'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/lib/python3.12/site-packages'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/bin'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.ps1'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.dsv'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.sh'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.bash'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/startup_cobot/package.zsh'
+[3.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/startup_cobot/share/colcon-core/packages/startup_cobot)
+[4.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/gazebo_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot
+[4.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot -- -j16 -l16
+[4.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot -- -j16 -l16
+[4.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot
+[5.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_custom_cobot)
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' for CMake module files
+[5.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/gazebo_custom_cobot
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' for CMake config files
+[5.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_custom_cobot', 'cmake_prefix_path')
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.ps1'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.dsv'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.sh'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/bin'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/lib/pkgconfig/gazebo_custom_cobot.pc'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/lib/python3.12/site-packages'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/bin'
+[5.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.ps1'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.dsv'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.sh'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.bash'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.zsh'
+[5.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/colcon-core/packages/gazebo_custom_cobot)
+[5.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_custom_cobot)
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' for CMake module files
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot' for CMake config files
+[5.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_custom_cobot', 'cmake_prefix_path')
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.ps1'
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.dsv'
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/hook/cmake_prefix_path.sh'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/bin'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/lib/pkgconfig/gazebo_custom_cobot.pc'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/lib/python3.12/site-packages'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/bin'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.ps1'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.dsv'
+[5.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.sh'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.bash'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/gazebo_custom_cobot/package.zsh'
+[5.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot/share/colcon-core/packages/gazebo_custom_cobot)
+[5.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/custom_cobot_ros2' with build type 'ament_cmake'
+[5.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/custom_cobot_ros2'
+[5.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/custom_cobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2
+[5.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/custom_cobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2
+[5.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2 -- -j16 -l16
+[5.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2 -- -j16 -l16
+[5.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2
+[5.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_cobot_ros2)
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' for CMake module files
+[5.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/startup_cobot:/home/ubuntu/ros2_rviz_urbot/install/moveit_config_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/gazebo_custom_cobot:/home/ubuntu/ros2_rviz_urbot/install/description_cobot:/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/custom_cobot_ros2
+[5.972s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' for CMake config files
+[5.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_cobot_ros2', 'cmake_prefix_path')
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.ps1'
+[5.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.dsv'
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.sh'
+[5.974s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/bin'
+[5.974s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/lib/pkgconfig/custom_cobot_ros2.pc'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/lib/python3.12/site-packages'
+[5.975s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/bin'
+[5.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.ps1'
+[5.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.dsv'
+[5.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.sh'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.bash'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.zsh'
+[5.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/colcon-core/packages/custom_cobot_ros2)
+[5.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_cobot_ros2)
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' for CMake module files
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2' for CMake config files
+[5.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_cobot_ros2', 'cmake_prefix_path')
+[5.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.ps1'
+[5.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.dsv'
+[5.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/hook/cmake_prefix_path.sh'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/bin'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/lib/pkgconfig/custom_cobot_ros2.pc'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/lib/python3.12/site-packages'
+[5.980s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/bin'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.ps1'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.dsv'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.sh'
+[5.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.bash'
+[5.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/custom_cobot_ros2/package.zsh'
+[5.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_rviz_urbot/install/custom_cobot_ros2/share/colcon-core/packages/custom_cobot_ros2)
+[5.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.994s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.022s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.081s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_rviz_urbot/install/local_setup.ps1'
+[6.083s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_rviz_urbot/install/_local_setup_util_ps1.py'
+[6.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_rviz_urbot/install/setup.ps1'
+[6.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_rviz_urbot/install/local_setup.sh'
+[6.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_rviz_urbot/install/_local_setup_util_sh.py'
+[6.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_rviz_urbot/install/setup.sh'
+[6.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_rviz_urbot/install/local_setup.bash'
+[6.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_rviz_urbot/install/setup.bash'
+[6.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_rviz_urbot/install/local_setup.zsh'
+[6.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_rviz_urbot/install/setup.zsh'

@@ -1,0 +1,91 @@
+[0.057s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/description_cobot
+[0.276s] -- The C compiler identification is GNU 13.3.0
+[0.566s] -- The CXX compiler identification is GNU 13.3.0
+[0.691s] -- Detecting C compiler ABI info
+[1.372s] -- Detecting C compiler ABI info - done
+[1.392s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.392s] -- Detecting C compile features
+[1.395s] -- Detecting C compile features - done
+[1.499s] -- Detecting CXX compiler ABI info
+[2.258s] -- Detecting CXX compiler ABI info - done
+[2.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.317s] -- Detecting CXX compile features
+[2.317s] -- Detecting CXX compile features - done
+[2.329s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.782s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.001s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.109s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.110s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.113s] -- Added test 'lint_cmake' to check CMake code style
+[3.121s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.141s] -- Added test 'xmllint' to check XML markup files
+[3.141s] -- Configuring done (3.0s)
+[3.150s] -- Generating done (0.0s)
+[3.150s] -- Build files have been written to: /home/ubuntu/ros2_rviz_urbot/build/description_cobot
+[3.154s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_rviz_urbot/install/description_cobot
+[3.156s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/description_cobot -- -j16 -l16
+[3.244s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_rviz_urbot/build/description_cobot -- -j16 -l16
+[3.268s] Invoking command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/description_cobot
+[3.377s] -- Install configuration: ""
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/launch
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/launch/robot_state_publisher.launch.py
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link2.png
+[3.377s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link2.dae
+[3.378s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link3.png
+[3.378s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link6.dae
+[3.388s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link4.dae
+[3.388s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/suit_env.dae
+[3.389s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link3.dae
+[3.391s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link7.dae
+[3.391s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link7.png
+[3.393s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link5.png
+[3.394s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link4.png
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link5.dae
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link1.png
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link6.png
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/custom_cobot_280/visual/link1.dae
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/g_shape_base_v2_0
+[3.395s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/g_shape_base_v2_0/visual
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/g_shape_base_v2_0/visual/base_link.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_left2.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_left3.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_left1.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_right3.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_right2.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_base.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/meshes/adaptive_gripper/visual/gripper_right1.dae
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/sensors
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/robots
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/robots/custom_cobot_280.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/control
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/control/custom_cobot_280_ros2_control.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/mech
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/mech/custom_cobot_280_arm.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/mech/g_shape_base_v2_0.urdf.xacro
+[3.396s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/urdf/mech/adaptive_gripper.urdf.xacro
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/rviz
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/rviz/custom_cobot_280_description.rviz
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/ament_index/resource_index/package_run_dependencies/description_cobot
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/ament_index/resource_index/parent_prefix_path/description_cobot
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/environment/ament_prefix_path.sh
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/environment/ament_prefix_path.dsv
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/environment/path.sh
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/environment/path.dsv
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/local_setup.bash
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/local_setup.sh
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/local_setup.zsh
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/local_setup.dsv
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.dsv
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/ament_index/resource_index/packages/description_cobot
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/cmake/description_cobotConfig.cmake
+[3.397s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/cmake/description_cobotConfig-version.cmake
+[3.398s] -- Installing: /home/ubuntu/ros2_rviz_urbot/install/description_cobot/share/description_cobot/package.xml
+[3.449s] Invoked command in '/home/ubuntu/ros2_rviz_urbot/build/description_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_rviz_urbot/build/description_cobot

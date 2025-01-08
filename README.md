@@ -93,11 +93,11 @@ bash ~/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts/mycobot_280_gazebo.sh
 
 #### Gazebo Simulation
 
-![Gazebo Simulation](attachment:/mnt/data/Screenshot%20from%202025-01-08%2021-46-26.png)
+![Gazebo Simulation](ros2_rviz_urbot/src/custom_cobot_ros2/Images/Gazebo.png)
 
 #### RViz Visualization
 
-![RViz Visualization](attachment:/mnt/data/Screenshot%20from%202025-01-08%2021-29-05.png)
+![RViz Visualization](ros2_rviz_urbot/src/custom_cobot_ros2/Images/Gazebo.png)
 
 ---
 

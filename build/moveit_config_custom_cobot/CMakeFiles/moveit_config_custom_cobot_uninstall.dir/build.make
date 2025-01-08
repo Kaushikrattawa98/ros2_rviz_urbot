@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot
+CMAKE_SOURCE_DIR = /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot
+CMAKE_BINARY_DIR = /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot
 
 # Utility rule file for moveit_config_custom_cobot_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/moveit_config_custom_cobot_uninstall.dir/compiler_depend.make
 include CMakeFiles/moveit_config_custom_cobot_uninstall.dir/progress.make
 
 CMakeFiles/moveit_config_custom_cobot_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 moveit_config_custom_cobot_uninstall: CMakeFiles/moveit_config_custom_cobot_uninstall
 moveit_config_custom_cobot_uninstall: CMakeFiles/moveit_config_custom_cobot_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/moveit_config_custom_cobot_uninstall.dir/clean:
 .PHONY : CMakeFiles/moveit_config_custom_cobot_uninstall.dir/clean
 
 CMakeFiles/moveit_config_custom_cobot_uninstall.dir/depend:
-	cd /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles/moveit_config_custom_cobot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles/moveit_config_custom_cobot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/moveit_config_custom_cobot_uninstall.dir/depend
 

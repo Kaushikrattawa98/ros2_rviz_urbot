@@ -1,0 +1,51 @@
+[0.144s] Invoking command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot
+[1.112s] -- The C compiler identification is GNU 13.3.0
+[1.665s] -- The CXX compiler identification is GNU 13.3.0
+[1.794s] -- Detecting C compiler ABI info
+[2.205s] -- Detecting C compiler ABI info - done
+[2.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.222s] -- Detecting C compile features
+[2.225s] -- Detecting C compile features - done
+[2.250s] -- Detecting CXX compiler ABI info
+[2.707s] -- Detecting CXX compiler ABI info - done
+[2.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.743s] -- Detecting CXX compile features
+[2.743s] -- Detecting CXX compile features - done
+[2.861s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.280s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.697s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.995s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.995s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.010s] -- Added test 'lint_cmake' to check CMake code style
+[4.011s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.017s] -- Added test 'xmllint' to check XML markup files
+[4.025s] -- Configuring done (3.8s)
+[4.065s] -- Generating done (0.0s)
+[4.068s] -- Build files have been written to: /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot
+[4.078s] Invoked command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot -DCMAKE_INSTALL_PREFIX=/home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot
+[4.081s] Invoking command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot -- -j4 -l4
+[4.184s] Invoked command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot -- -j4 -l4
+[4.201s] Invoking command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot
+[4.219s] -- Install configuration: ""
+[4.220s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/config
+[4.220s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/config/custom_cobot_280
+[4.223s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/config/custom_cobot_280/ros2_controllers_template.yaml
+[4.224s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/config/custom_cobot_280/ros2_controllers.yaml
+[4.226s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/launch
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/launch/load_ros2_controllers.launch.py
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/ament_index/resource_index/package_run_dependencies/moveit_config_custom_cobot
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/ament_index/resource_index/parent_prefix_path/moveit_config_custom_cobot
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/environment/ament_prefix_path.sh
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/environment/ament_prefix_path.dsv
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/environment/path.sh
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/environment/path.dsv
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/local_setup.bash
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/local_setup.sh
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/local_setup.zsh
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/local_setup.dsv
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.dsv
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/ament_index/resource_index/packages/moveit_config_custom_cobot
+[4.249s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/cmake/moveit_config_custom_cobotConfig.cmake
+[4.254s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/cmake/moveit_config_custom_cobotConfig-version.cmake
+[4.254s] -- Installing: /home/mj/ros2_rviz_urbot/install/moveit_config_custom_cobot/share/moveit_config_custom_cobot/package.xml
+[4.255s] Invoked command in '/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot

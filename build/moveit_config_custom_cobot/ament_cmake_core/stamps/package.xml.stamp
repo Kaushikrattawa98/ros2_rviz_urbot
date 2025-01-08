@@ -5,6 +5,7 @@
   <version>0.0.0</version>
   <description>This package contains the configuration files for MoveIT</description>
   <maintainer email="kauhsikrattawa@gmail.com">ubuntu</maintainer>
+  <maintainer email="mehuljain51296@gmail.com">ubuntu</maintainer>
   <license>BSD-3-Clause</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

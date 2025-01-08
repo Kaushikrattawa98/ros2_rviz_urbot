@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "gazebo_custom_cobot")
 set(gazebo_custom_cobot_VERSION "0.0.0")
-set(gazebo_custom_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>")
+set(gazebo_custom_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>, ubuntu <mehuljain51296@gmail.com>")
 set(gazebo_custom_cobot_BUILD_DEPENDS "controller_manager" "gripper_controllers" "gz_msgs_vendor" "gz_ros2_control" "python3-numpy" "rclcpp" "ros_gz" "ros_gz_bridge" "ros_gz_image" "ros_gz_sim" "ros2_control" "ros2_controllers" "trajectory_msgs" "xacro")
 set(gazebo_custom_cobot_BUILDTOOL_DEPENDS "ament_cmake")
 set(gazebo_custom_cobot_BUILD_EXPORT_DEPENDS "controller_manager" "gripper_controllers" "gz_msgs_vendor" "gz_ros2_control" "python3-numpy" "rclcpp" "ros_gz" "ros_gz_bridge" "ros_gz_image" "ros_gz_sim" "ros2_control" "ros2_controllers" "trajectory_msgs" "xacro")

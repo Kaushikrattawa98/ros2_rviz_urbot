@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "system_tests_custom_cobot")
 set(system_tests_custom_cobot_VERSION "1.0.0")
-set(system_tests_custom_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>")
+set(system_tests_custom_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>, ubuntu <mehuljain51296@gmail.com>")
 set(system_tests_custom_cobot_BUILD_DEPENDS )
 set(system_tests_custom_cobot_BUILDTOOL_DEPENDS "ament_cmake")
 set(system_tests_custom_cobot_BUILD_EXPORT_DEPENDS )

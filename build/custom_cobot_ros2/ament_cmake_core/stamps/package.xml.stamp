@@ -4,7 +4,8 @@
   <name>custom_cobot_ros2</name>
   <version>0.0.0</version>
   <description>My first custom cobot</description>
-  <maintainer email="rkaushikrattawa@gmial.com">ubuntu</maintainer>
+  <maintainer email="kaushikrattawa@gmail.com">ubuntu</maintainer>
+  <maintainer email="mehuljain51296@gmail.com">ubuntu</maintainer>
   <license>BSD-3-Clause</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
 

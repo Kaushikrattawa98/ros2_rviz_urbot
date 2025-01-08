@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot
+# Install script for directory: /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/ros2_rviz_urbot/install/system_tests_custom_cobot")
+  set(CMAKE_INSTALL_PREFIX "/home/mj/ros2_rviz_urbot/install/system_tests_custom_cobot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/system_tests_custom_cobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/system_tests_custom_cobot")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/system_tests_custom_cobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/system_tests_custom_cobot")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot/environment" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot/environment" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot/environment" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot/environment" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/packages/system_tests_custom_cobot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_index/share/ament_index/resource_index/packages/system_tests_custom_cobot")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot/cmake" TYPE FILE FILES
-    "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_core/system_tests_custom_cobotConfig.cmake"
-    "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_core/system_tests_custom_cobotConfig-version.cmake"
+    "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_core/system_tests_custom_cobotConfig.cmake"
+    "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_core/system_tests_custom_cobotConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/system_tests_custom_cobot" TYPE FILE FILES "/home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -109,5 +109,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

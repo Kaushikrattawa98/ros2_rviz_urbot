@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot
+CMAKE_SOURCE_DIR = /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot
+CMAKE_BINARY_DIR = /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot
 
 # Utility rule file for system_tests_custom_cobot_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/system_tests_custom_cobot_uninstall.dir/compiler_depend.make
 include CMakeFiles/system_tests_custom_cobot_uninstall.dir/progress.make
 
 CMakeFiles/system_tests_custom_cobot_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 system_tests_custom_cobot_uninstall: CMakeFiles/system_tests_custom_cobot_uninstall
 system_tests_custom_cobot_uninstall: CMakeFiles/system_tests_custom_cobot_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/system_tests_custom_cobot_uninstall.dir/clean:
 .PHONY : CMakeFiles/system_tests_custom_cobot_uninstall.dir/clean
 
 CMakeFiles/system_tests_custom_cobot_uninstall.dir/depend:
-	cd /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot /home/ubuntu/ros2_rviz_urbot/build/system_tests_custom_cobot/CMakeFiles/system_tests_custom_cobot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/system_tests_custom_cobot /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot /home/mj/ros2_rviz_urbot/build/system_tests_custom_cobot/CMakeFiles/system_tests_custom_cobot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/system_tests_custom_cobot_uninstall.dir/depend
 

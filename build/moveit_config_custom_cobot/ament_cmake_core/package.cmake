@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "moveit_config_custom_cobot")
 set(moveit_config_custom_cobot_VERSION "0.0.0")
-set(moveit_config_custom_cobot_MAINTAINER "ubuntu <kauhsikrattawa@gmail.com>")
+set(moveit_config_custom_cobot_MAINTAINER "ubuntu <kauhsikrattawa@gmail.com>, ubuntu <mehuljain51296@gmail.com>")
 set(moveit_config_custom_cobot_BUILD_DEPENDS )
 set(moveit_config_custom_cobot_BUILDTOOL_DEPENDS "ament_cmake")
 set(moveit_config_custom_cobot_BUILD_EXPORT_DEPENDS )

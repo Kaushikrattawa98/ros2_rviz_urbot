@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "description_cobot")
 set(description_cobot_VERSION "0.0.0")
-set(description_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>")
+set(description_cobot_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>, ubuntu <mehuljain51296@gmail.com>")
 set(description_cobot_BUILD_DEPENDS )
 set(description_cobot_BUILDTOOL_DEPENDS "ament_cmake")
 set(description_cobot_BUILD_EXPORT_DEPENDS )

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot
+CMAKE_SOURCE_DIR = /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/moveit_config_custom_cobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot
+CMAKE_BINARY_DIR = /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/moveit_config_custom_cobot_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/moveit_config_custom_cobot_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/moveit_config_custom_cobot_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_config_custom_cobot_uninstall.dir/build.make CMakeFiles/moveit_config_custom_cobot_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_config_custom_cobot_uninstall.dir/build.make CMakeFiles/moveit_config_custom_cobot_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles --progress-num= "Built target moveit_config_custom_cobot_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles --progress-num= "Built target moveit_config_custom_cobot_uninstall"
 .PHONY : CMakeFiles/moveit_config_custom_cobot_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moveit_config_custom_cobot_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moveit_config_custom_cobot_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mj/ros2_rviz_urbot/build/moveit_config_custom_cobot/CMakeFiles 0
 .PHONY : CMakeFiles/moveit_config_custom_cobot_uninstall.dir/rule
 
 # Convenience name for target.

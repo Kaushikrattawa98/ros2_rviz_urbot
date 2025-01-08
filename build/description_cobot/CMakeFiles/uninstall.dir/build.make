@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot
+CMAKE_SOURCE_DIR = /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/ros2_rviz_urbot/build/description_cobot
+CMAKE_BINARY_DIR = /home/mj/ros2_rviz_urbot/build/description_cobot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ubuntu/ros2_rviz_urbot/build/description_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot /home/ubuntu/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot /home/ubuntu/ros2_rviz_urbot/build/description_cobot /home/ubuntu/ros2_rviz_urbot/build/description_cobot /home/ubuntu/ros2_rviz_urbot/build/description_cobot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mj/ros2_rviz_urbot/build/description_cobot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot /home/mj/ros2_rviz_urbot/src/custom_cobot_ros2/description_cobot /home/mj/ros2_rviz_urbot/build/description_cobot /home/mj/ros2_rviz_urbot/build/description_cobot /home/mj/ros2_rviz_urbot/build/description_cobot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

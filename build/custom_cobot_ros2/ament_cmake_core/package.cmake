@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "custom_cobot_ros2")
 set(custom_cobot_ros2_VERSION "0.0.0")
-set(custom_cobot_ros2_MAINTAINER "ubuntu <rkaushikrattawa@gmial.com>")
+set(custom_cobot_ros2_MAINTAINER "ubuntu <kaushikrattawa@gmail.com>, ubuntu <mehuljain51296@gmail.com>")
 set(custom_cobot_ros2_BUILD_DEPENDS )
 set(custom_cobot_ros2_BUILDTOOL_DEPENDS "ament_cmake")
 set(custom_cobot_ros2_BUILD_EXPORT_DEPENDS )
